@@ -47,12 +47,12 @@ module.exports = defineConfig({
 
     {
       name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
+      use: { ...devices['Desktop Firefox'] , video: "on" , screenshot: "on" },
     },
 
     {
       name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
+      use: { ...devices['Desktop Safari'] , video: "on" , screenshot: "on" },
     },
 
     /* Test against mobile viewports. */
